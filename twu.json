@@ -1,0 +1,26 @@
+{
+  "name": "twu",
+  "title": "Talent With Us",
+  "description": "Projecto para compañia de psicologia",
+  "version": "0.0.1",
+  "homepage": "www.talentwithus.com",
+  "author": {
+    "name": "Montana Studio",
+    "email": "mauro@montana-studio.com",
+    "url": "http://www.montana-studio.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Mediatrends/twu.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mediatrends/twu/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "www.talentwithus.com/blob/master/LICENSE-MIT"
+    }
+  ],
+  "keywords": []
+}
