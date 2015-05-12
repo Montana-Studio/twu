@@ -36,6 +36,10 @@ $bp-xxl : 1440px;
 		@media (min-width:$bp-largess) and (max-width:$bp-xl) {
 		    @content;
 		}
+	}@else if $min == 'notebook-min'{
+		@media (min-width:$bp-xl) and (max-width:$bp-xxl) {
+		    @content;
+		}	
 	}@else if $min == 'desktop'{
 		@media (min-width:$bp-largess) {
 		    @content;
