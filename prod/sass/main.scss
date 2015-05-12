@@ -1,0 +1,19 @@
+// Import grid settings :
+@import '../../bower_components/boostrap-sass/assets/stylesheets/bootstrap-compass';
+@import '../../bower_components/boostrap-sass/assets/stylesheets/bootstrap-mincer';
+@import '../../bower_components/boostrap-sass/assets/stylesheets/bootstrap-sprockets';
+@import '../../bower_components/boostrap-sass/assets/stylesheets/bootstrap';
+
+/*wrapper*/
+@import 'partial/vars';
+@import 'partial/main'; 
+
+@import 'partial/header'; 
+@import 'partial/banner'; 
+@import 'partial/aboutus'; 
+@import 'partial/quote'; 
+@import 'partial/services';  
+@import 'partial/services-slider';
+@import 'partial/footer';
+@import 'partial/contacto'; 
+

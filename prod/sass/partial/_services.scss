@@ -1,0 +1,97 @@
+.second-bg {
+	@extend .no-margins;
+	background:$third_color;
+	padding:{top:90px;}
+	@include queries(phoness-min){
+		padding:0;
+	} 
+	.section-services {
+		.title-section {
+			@include queries(phoness-min){
+			height: 76px;
+			@include queries(phoness-min){
+				margin:{bottom:25px;}
+				}
+			}	
+		}
+		.headline-2 {
+			background: none;
+			h3 {
+				letter-spacing: 3px;
+				margin:{bottom:75px;}
+				@include queries(phoness-min){
+				margin:{bottom:25px;}
+				}
+			}
+		}
+		.box-content {
+			@extend .text-center;
+			.services-boxes {
+				@include queries(phoness-min){
+				margin:0;
+				padding:{top:10px;right:0;bottom:0;left:0;}
+				} 
+				h4 {
+					@extend .text-center;
+					letter-spacing: 3px;
+					margin:{bottom:35px;}
+					line-height: 26px;
+					padding: 0 5%;
+					a {
+						&:hover {
+							color:#000;
+
+						}
+						&:focus {
+							color:#000;
+							text:{decoration:none;} 
+						}
+					}
+				}	
+				&.style-1 {
+					&:before {
+						border:{right:1px solid #000;left:1px solid #000;}
+					}
+					&:after{
+						border:{top:1px solid #000;bottom:1px solid #000;}
+					}
+				}
+			}
+			.icon-flaticon {
+				@extend .text-center;
+				width: 140px;
+				height: 140px;
+				border-radius:50%;
+				background:#000;
+				display:block;
+	  			margin:{top:0;right: auto;bottom:20px; left:auto;}
+	  			a {
+					height: inherit;
+					display: table;
+					color:#fff;
+					margin:0 auto;
+					float:none;
+					i {
+						display: table-cell;
+						vertical-align: middle;
+						font:{size:65px;}
+						margin:0 auto;
+					}
+					&:hover {
+						text:{decoration:none;}
+					}
+				}	
+	  			.circle {
+		  			width: 130px;
+					height: 130px;
+					border-radius:50%;
+					background:none;
+					border:2px solid #fff;
+					position: absolute;
+					top: 45px;
+					left: 114px;
+	  			}
+			}
+		}
+	}	
+}

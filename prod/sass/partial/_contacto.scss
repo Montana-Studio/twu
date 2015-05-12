@@ -1,0 +1,25 @@
+.content-contacto {
+	margin:100px 0;
+	@include queries(phoness-min){
+		margin:{top:50px;bottom:0;}
+	} 
+	h3 {
+		letter-spacing: 3px;
+	}
+	.form-contacto {
+	}
+	.info-contacto {
+		h4 {
+			letter-spacing: 3px;
+		}
+	}
+	.btn-black {
+		font:{family:'Open Sans', sans-serif;}	
+		background: none;
+		border:2px solid #000;
+		border-radius: 0;
+		color:#000;
+		letter-spacing: 3px;
+		font:{weight:400;}
+	}
+}

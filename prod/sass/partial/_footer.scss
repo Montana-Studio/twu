@@ -1,0 +1,44 @@
+.footer-content {
+	.widget-text {
+		.logo {
+			@extend .no-paddings;
+			top:-16px;
+			left:0;
+			height: 40px;
+			overflow: visible;
+			@include queries(phoness-min){
+				display: none;
+			}
+			a {
+				height:40px;
+				width: 100%;
+				@include queries(phoness-min){
+				height: 47px;  
+				}
+				svg {
+					height:40px;
+					width: 50%;
+					overflow: visible;
+					@include queries(phoness-min){
+					width:25px;  
+					top: -18px;
+					left: 17px;
+					}
+				}
+			}
+		}
+		.copyright {
+			height: 40px;
+			display: table;
+			@include queries(phoness-min){
+				margin:0;
+			}
+			.last {
+				display: table-cell;
+				vertical-align: middle;
+				height: 40px;
+
+			}
+		}
+	}
+}
