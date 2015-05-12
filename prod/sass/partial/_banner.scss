@@ -1,0 +1,74 @@
+#content {
+	@include queries(phoness-min){
+		margin:{bottom:0;}
+		padding:{bottom:0;}
+	}
+	@include queries(tabless){
+		padding:{bottom:0;}
+	}
+	.bannercontainer {
+		@extend .col-sm-12;
+		@extend .no-paddings;
+		@include queries(phoness-min){
+		margin:{bottom:0;}
+		}
+		.banner {
+			ul {
+				li {
+					.tp-caption {
+						font:{family:'Open Sans', sans-serif;}	
+						display: block;
+						margin: 0 auto;
+						text:{align:center;}
+						a {
+							&.concepto {
+								color:#000;
+								font:{size:18px;weight:400;style:italic;}
+								text:{align:center;transform:uppercase;}
+								padding: 0 10px;
+								background: #fff;
+								@include queries(phoness-min){
+									font:{size:9px;weight:400;style:italic;}
+								}	
+							}
+							&:hover {
+								text:{decoration:none;}
+							}
+						}
+						p {
+							font:{size:19px;weight:400;style:italic}
+							@include queries(phoness-min){
+								font:{size:11px;weight:400;style:italic}
+								line-height: 13px;
+							} 
+						}
+					}
+					.title-banner {
+						color:#fff;
+						font:{size:60px;}
+						text:{align:center;transform:uppercase;}
+					}
+					.btn-white {
+						font:{family:'Open Sans', sans-serif;}	
+						background: none;
+						border:2px solid #fff;
+						border-radius: 0;
+						color:#fff;
+						letter-spacing: 3px;
+						font:{weight:700;}
+					}
+				}
+			}
+		}
+		.tp-rightarrow {
+			@include queries(phoness-min){
+				right: 0 !important;
+			}
+		}
+		.tp-leftarrow {
+			@include queries(phoness-min){
+				left: 0 !important;
+			}
+		}	
+	}	
+}

@@ -1,0 +1,48 @@
+//MEDIA QUERIES
+$bp-smalless : 320px;
+$bp-meddies: 480px;
+$bp-md  : 600px;
+$bp-large : 800px;
+$bp-largess : 1024px;
+$bp-xl : 1140px;
+$bp-xxl : 1440px; 
+
+@mixin queries($max, $min){
+	@media screen and(min-width:$max) and (max-width:$min){
+		@content;
+	}
+}
+@include queries($bp-smalless, $bp-meddies){
+	background: red;
+} 
+@mixin phoness-min {
+  @media (min-width: #{$bp-smalless}) and (max-width: #{$bp-meddies - 1px}) {
+    @content;
+  }
+}
+@mixin phoness {
+  @media (min-width: #{$bp-meddies}) and (max-width: #{$bp-md - 1px}) {
+    @content;
+  }
+}
+@mixin tabless-min {
+  @media (min-width: #{$bp-md }) and (max-width: #{$bp-large - 1px}) {
+    @content;
+  }
+}
+@mixin tabless {
+  @media (min-width: #{$bp-large}) and (max-width: #{$bp-largess - 1px}) {
+    @content;
+  }
+}
+@mixin notebook {
+  @media (min-width: #{$bp-largess}) and (max-width: #{$bp-xl - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$bp-xl}) {
+    @content;
+  }
+}

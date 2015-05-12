@@ -1,0 +1,35 @@
+.quote {
+	color:#fff;
+	background: black;
+	.testimonial-slider {
+		.testimonial {
+			background: none;
+			padding: {bottom:0;}
+			blockquote {
+				border:0;
+				p {
+					@include queries(phoness-min){
+						font:{size:13px;}
+					} 
+				}
+			}
+		}
+		.bx-wrapper {
+			.bx-pager-item {
+				color:#fff;
+				.bx-pager-link {
+					border:1px solid #fff;
+					background: #fff;
+					&.active {
+						background: none;
+					}
+				}
+			}	
+		}	
+	}
+}
+#section-2 {
+	background:$first_color;
+	padding:{top:7%;bottom:5%;}
+	margin:{bottom:0;}
+}

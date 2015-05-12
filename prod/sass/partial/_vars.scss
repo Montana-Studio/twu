@@ -1,0 +1,45 @@
+// COLORS
+$first_color:#000;     			// BLACK
+$second_color:#d9d9d9; 			// GRAY
+$second_color_1:#979792; 		// GRAY 2
+$third_color:#ff8a7f;  			// PINK
+$fourth_color:#fcd145; 			// YELLOW
+
+//MEDIA QUERIES
+$bp-smalless : 320px;
+$bp-meddies: 480px;
+$bp-md  : 600px;
+$bp-large : 800px;
+$bp-largess : 1024px;
+$bp-xl : 1140px;
+$bp-xxl : 1440px; 
+
+@mixin queries($min){
+	
+	@if $min == 'phoness-min'{
+		@media screen and(min-width:$bp-smalless) and (max-width:$bp-meddies){
+			@content;
+		}
+	}@else if $min == 'phoness'{
+		@media screen and(min-width:$bp-meddies) and (max-width:$bp-md){
+			@content;
+		}
+	}@else if $min == 'tabless-min'{
+		@media (min-width:$bp-md ) and (max-width:$bp-large) {
+			@content;
+		}
+	}@else if $min == 'tabless'{
+		@media (min-width:$bp-large) and (max-width:$bp-largess) {
+		    @content;
+		}
+	}@else if $min == 'notebook'{
+		@media (min-width:$bp-largess) and (max-width:$bp-xl) {
+		    @content;
+		}
+	}@else if $min == 'desktop'{
+		@media (min-width:$bp-largess) {
+		    @content;
+		}
+	}
+}
+

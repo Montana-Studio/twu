@@ -1,0 +1,171 @@
+#header {
+	@extend .col-sm-12;
+	@extend .no-paddings;
+	background:{color:$first_color;}
+	z-index: 99;
+	.container {
+		@extend .col-xs-12;
+		@extend .col-sm-12;
+		@extend .col-md-12;
+		@extend .col-lg-8;
+		@extend .no-paddings;
+		float: none;
+		@include queries(phoness-min){
+			width: 100% !important;
+		}
+		.logo {
+			@extend .col-sm-3;
+			@extend .col-xs-3;
+			@extend .no-paddings;
+			margin:0;
+			display: block;
+			height: 137px;
+			@include queries(phoness-min){
+				height: 47px;  
+			}
+			@include queries(tabless){
+				height: 70px; 
+			}
+			a {
+				@extend .col-sm-12;
+				@extend .col-xs-12;
+				@extend .no-paddings;
+				height:inherit;
+				overflow: hidden;
+				@include queries(phoness-min){
+					height: 47px;  
+				}
+				@include queries(tabless){
+					height: 70px; 
+				}
+				svg {
+					height: inherit;
+					overflow: visible;
+					position: absolute;
+					margin:0;
+					width: 75px;
+					top: -53px;
+					@include queries(phoness-min){
+						width:25px;  
+						top: -18px;
+						left: 17px;
+					}
+					@include queries(tabless){
+						width: 35px;
+						top: -26px;
+						left: 32px;
+						height: 70px;
+					}
+				}
+			}
+		}
+		.nav-top {
+			@extend .col-sm-9;
+			@extend .no-paddings;
+			.menu {
+				margin:{right:30px;}
+				@include queries(tabless){
+					margin:{top:10px;}
+				}
+				li {
+					a {
+						color:#fff;
+						@include queries(tabless){
+							padding:{bottom:30px;}
+						}
+						&:focus {
+							text-decoration: none;
+						}
+					}
+
+					&.active {
+						a {
+							color:$second_color_1;
+						}
+					}
+					&.dropdown{
+						ul {
+							background:$first_color;
+							border:0;
+							li {
+								a:hover {
+									color:$first_color;
+									font:{weight:bold;}
+								}
+							}
+						}
+					}
+				}
+			}
+			#mobile-menu-button {
+				background: none;
+				@include queries(phoness-min){
+					color:#fff;
+					top: -47px;
+				}
+			}
+			#search-form {
+				@include queries(tabless){
+					top: 10px;
+				}
+			}
+		}	
+	}
+	&.header-sticky {
+		background:{color:$third_color;}
+		color:#000;
+		box-shadow: 0 0px 10px #333333;
+		.logo {
+			height: 67px !important;
+			a {
+				height:inherit;
+				svg {
+					width: 10%;
+					top: -23px;
+					@include queries(tabless){
+						width: 35px;
+						top: -26px;
+						left: 32px;
+						height: 70px;
+					}	
+				}
+			}
+		}
+		.nav-top {
+			.menu {
+				margin:{top:10px;}
+				li {
+					a {
+						color:#000;
+
+					}
+					&.active {
+						a {
+							color:#fff;
+						}
+					}
+					&.dropdown{
+						ul {
+							background:$third_color;
+							border:0;
+							li {
+								a:hover {
+									color:$third_color;
+									font:{weight:bold;}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+#mobile-menu {
+	background:$first_color;
+	li {
+		a {
+			color:#fff;
+		}
+	}
+}
