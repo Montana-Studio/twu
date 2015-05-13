@@ -20,6 +20,9 @@
 						display: block;
 						margin: 0 auto;
 						text:{align:center;}
+						left:0 !important;
+						right: 0 !important;
+						margin: 0 auto !important;
 						a {
 							&.concepto {
 								color:#000;
@@ -28,25 +31,53 @@
 								padding: 0 10px;
 								background: #fff;
 								@include queries(phoness-min){
-									font:{size:9px;weight:400;style:italic;}
+									font:{size:8px !important;weight:400;style:italic;}
+									left: 0 !important;
+									right: 0 !important;
+									margin: 0 auto !important;
 								}	
 							}
 							&:hover {
 								text:{decoration:none;}
 							}
 						}
-						p {
-							font:{size:19px;weight:400;style:italic}
+						.text-p {
+							font:{family:'Open Sans', sans-serif;}
+							width: 40% !important;
+							margin:0 auto !important;
+							height:150px !important;
+							white-space: normal !important;
+							font:{size:17px !important;}
 							@include queries(phoness-min){
-								font:{size:11px;weight:400;style:italic}
-								line-height: 13px;
-							} 
+								width: 80% !important;
+								font:{size:9px !important;}
+								line-height: 11px;
+							}
+							@include queries(tabless){
+								width: 70% !important;
+							}
+							p {
+								font:{size:15px;weight:700 !important;style:italic}
+								@include queries(phoness-min){
+									font:{size:15px !important;weight:400;style:italic}
+									line-height: 15px;
+								} 
+							}	
 						}
+						
 					}
 					.title-banner {
 						color:#fff;
 						font:{size:60px;}
 						text:{align:center;transform:uppercase;}
+						left: 0 !important;
+						right: 0;
+						margin: 0 auto !important;
+						@include queries(phoness-min){
+							left: 0 !important;
+							right: 0 !important;
+							margin: 0 auto !important;
+						}
 					}
 					.btn-white {
 						font:{family:'Open Sans', sans-serif;}	
@@ -56,16 +87,23 @@
 						color:#fff;
 						letter-spacing: 3px;
 						font:{weight:700;}
+						@include queries(phoness-min){
+							left: 0 !important;
+							right: 0 !important;
+							margin: 0 auto !important;
+						}
 					}
 				}
 			}
 		}
 		.tp-rightarrow {
+			top:50% !important;
 			@include queries(phoness-min){
 				right: 0 !important;
 			}
 		}
 		.tp-leftarrow {
+			top:50% !important;
 			@include queries(phoness-min){
 				left: 0 !important;
 			}

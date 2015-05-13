@@ -26,6 +26,12 @@
 			@include queries(tabless){
 				height: 70px; 
 			}
+			@include queries(notebook){
+					height: 80px;
+			}
+			@include queries(notebook-min){
+				  height: 85px;
+			}
 			a {
 				@extend .col-sm-12;
 				@extend .col-xs-12;
@@ -37,6 +43,9 @@
 				}
 				@include queries(tabless){
 					height: 70px; 
+				}
+				@include queries(notebook){
+					height: 80px;
 				}
 				svg {
 					height: inherit;
@@ -56,6 +65,14 @@
 						left: 32px;
 						height: 70px;
 					}
+					@include queries(notebook){
+						width: 35px;
+						top: -25px;
+					}
+					@include queries(notebook-min){
+						width: 44px;
+						top: -30px;
+					}
 				}
 			}
 		}
@@ -67,11 +84,17 @@
 				@include queries(tabless){
 					margin:{top:10px;}
 				}
+				@include queries(notebook-min){
+					margin:{top:20px;}
+				}
 				li {
 					a {
 						color:#fff;
 						@include queries(tabless){
 							padding:{bottom:30px;}
+						}
+						@include queries(notebook-min){
+							padding:{bottom:20px;}
 						}
 						&:focus {
 							text-decoration: none;
@@ -99,14 +122,30 @@
 			}
 			#mobile-menu-button {
 				background: none;
+				color:#fff;
+				right: 38px;
 				@include queries(phoness-min){
+					width: 22px;
 					color:#fff;
 					top: -47px;
+				}
+				@include queries(tabless){
+					top: -40px;
+					right: 24px;
+					position: absolute;
+				}
+				@include queries(tabless-min){
+					top: -40px;
+					right: 24px;
+					position: absolute;
 				}
 			}
 			#search-form {
 				@include queries(tabless){
 					top: 10px;
+				}
+				@include queries(notebook-min){
+					top:15px;
 				}
 			}
 		}	
@@ -128,6 +167,12 @@
 						left: 32px;
 						height: 70px;
 					}	
+					@include queries(notebook){
+						width: 34px;
+					}
+					@include queries(notebook-min){
+						width: 34px;
+					}
 				}
 			}
 		}
@@ -163,6 +208,9 @@
 }
 #mobile-menu {
 	background:$first_color;
+	@include queries(tabless){
+		color:#fff;
+	}
 	li {
 		a {
 			color:#fff;

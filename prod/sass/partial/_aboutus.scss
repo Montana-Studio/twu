@@ -14,7 +14,7 @@
 			@include queries(phoness-min){
 			    margin:{top:20px;}
 			}
-			@include queries(tabless-min){
+			@include queries(tabless){
 			    margin:{top:0px;}
 			}
 		}

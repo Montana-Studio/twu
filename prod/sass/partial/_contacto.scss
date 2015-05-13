@@ -3,6 +3,9 @@
 	@include queries(phoness-min){
 		margin:{top:50px;bottom:0;}
 	} 
+	@include queries(notebook-min){
+		margin: {bottom:0;}
+	}
 	h3 {
 		letter-spacing: 3px;
 	}
