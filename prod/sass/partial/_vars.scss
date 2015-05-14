@@ -22,7 +22,7 @@ $min-notebook:screen and(min-width:$bp-largess) and (max-width:$bp-xl);
 $min-desktop:screen and(min-width:$bp-largess);
 
 
-@mixin queries($min){
+@mixin queries($min...){
 	
 	@if $min == 'phoness-min'{
 		@media screen and(min-width:$bp-smalless) and (max-width:$bp-meddies){
@@ -53,40 +53,4 @@ $min-desktop:screen and(min-width:$bp-largess);
 		    @content;
 		}
 	}
-}
-@mixin querie($mins){
-	
-	@if $mins == 'phonesmin'{
-		@media #{$min-phonemin}{
-			@content;
-		}
-	}@else if $mins == 'phones'{
-		@media #{$min-phone}{
-			@content;
-		}
-	}@else if $mins == 'tablesmin'{
-		@media #{$min-tablemin}{
-			@content;
-		}
-	}@else if $mins == 'tables'{
-		@media #{$min-table}{
-		    @content;
-		}
-	}@else if $mins == 'notebooks'{
-		@media #{$min-notebook}{
-		    @content;
-		}
-	}@else if $mins == 'desktops'{
-		@media #{$min-desktop}{
-		    @content;
-		}
-	}
-}
-
-@include queries(phoness-min){
-	background: #000;
-}
-
-@include querie(phones){
-	background: #000;
 }

@@ -1,6 +1,6 @@
 <?php
 
-	define("destination", 'name@domain.com'); // email address of destination
+	define("destination", 'adsetter@mediatrends.cl'); // email address of destination
 	
 	error_reporting (E_ALL ^ E_NOTICE);
 

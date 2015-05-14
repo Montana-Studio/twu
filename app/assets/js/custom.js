@@ -566,22 +566,23 @@
 			},
 			messages: {
 				name: {
-					required: "Please enter your name!"
+					required: "Ingresa tu nombre!"
 				},
 				email: {
-					required: "Please enter your email!",
-					email: "Please enter a valid email address"
+					required: "Ingresa tu email!",
+					email: "Usa un email valido"
 				},
 				subject: {
-					required: "Please enter the subject!"
+					required: "Ingresa un titulo!"
 				},
 				message: {
-					required: "Please enter your message!"
+					required: "Ingresa un comentario!"
 				}
 			},
 				
 			// SUBMIT //
 			submitHandler: function(form) {
+				debug: true;
 				var result;
 				$(form).ajaxSubmit({
 					type: "POST",
@@ -590,7 +591,7 @@
 					success: function(msg) {
 						
 						if (msg == 'OK') {
-							result = '<div class="alert alert-success">Your message was successfully sent!</div>';
+							result = '<div class="alert alert-success">Tu mensaje a sido enviado!</div>';
 							$("#contact-form").clearForm();
 						} else {
 							result = msg;
@@ -601,7 +602,7 @@
 					},
 					error: function() {
 	
-						result = '<div class="alert alert-danger">There was an error sending the message!</div>';
+						result = '<div class="alert alert-danger">Hubo un error enviando el mensaje!</div>';
 						$("#alert-area").html(result);
 	
 					}

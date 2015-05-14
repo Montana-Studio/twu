@@ -256,15 +256,11 @@
                                 <li class="active"><a href="#home">Home</a></li>
 								<li class="dropdown">
 									<a href="#about-us">Nosotros</a>
-									<ul>
-                                        <li><a href="#about-us">Nosotros</a></li>
-                                        <li><a href="#about-us">Nuestro valor</a></li>
-                                    </ul>
 								</li>
 								<li class="dropdown">
-									<a href="#servicios">Servicios</a>
+									<a href="">Servicios</a>
 									<ul>
-                                        <li><a href="#servicios">Servicios</a></li>
+                                        <li><a href="#servicios">Nuestros Servicios</a></li>
                                         <li><a href="#que-hacemos">Que Hacemos</a></li>
                                     </ul>
 								</li>
@@ -294,7 +290,7 @@
                             </div>
 							
 							<div class="tp-caption title-banner sft" data-x="150" data-y="500" data-speed="700" data-start="2000" data-easing="easeOutBack">
-                            	Wellcome to Talent With Us
+                            	Bienvenido a Talent With Us
                             </div>
 							
 							<div class="tp-caption sfb" data-x="460" data-y="600" data-speed="700" data-start="2500" data-easing="easeOutBack">
@@ -345,7 +341,7 @@
 							
 							<div class="tp-caption text text-center sft" data-x="150" data-y="435" data-speed="700" data-start="2000" data-easing="easeOutBack">
 								<div class="text-p">
-                            		Tal como nuestro nombre lo dice privilegiamospotenciar el talento de cada persona en este proceso, por lo que encontrar un talento que haga un “match” con la empresa o cliente que lo requiere no es nuestro único trabajo.
+                            		Tal como nuestro nombre lo dice privilegiamos potenciar el talento de cada persona en este proceso, por lo que encontrar un talento que haga un “match” con la empresa o cliente que lo requiere no es nuestro único trabajo.
 								</div>
                             		
                             </div>
