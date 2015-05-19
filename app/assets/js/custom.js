@@ -430,34 +430,33 @@
 			slideMargin: 30
 		});
 		
-		$(".features-slider ul").bxSlider({
+		var slider = $(".features-slider ul").bxSlider({
 			mode: 'fade',
-			speed: 40,
+			speed: 1000,
 			infiniteLoop: true,
 			hideControlOnEnd: false,
 			pager: true,
 			pagerType: 'full',
 			controls: true,
-			auto: true,
+			auto: false,
 			pause: 4000,
 			autoHover: true,
 			useCSS: false,
-			onSlideAfter: function(){
-
-				var day;
-				switch (console.log('slider 01')) {
-				    case 0:
-				        day = $('#slide-01-quehacemos').css('display') == 'block';
-				        break;
-				    case 1:
-				        day = $('#slide-02-quehacemos').css('display') == 'block';
-				        break;
-				    case 2:
-				        day = $('#slide-03-quehacemos').css('display') == 'block';
-				        break;
-				}
-			}
 		});
+
+
+		$('#click-hunting').click(function(){
+			slider.goToSlide(0);
+		});		
+
+		$('#click-evalue').click(function(){
+			slider.goToSlide(1);
+		});
+
+		$('#click-consul').click(function(){
+			slider.goToSlide(2);
+		});
+
 		
 		$(".testimonial-slider ul").bxSlider({
 			mode: 'fade',

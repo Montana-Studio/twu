@@ -574,7 +574,7 @@
 								</div>
 								<div class="services-boxes-content">
 								
-									<h4><a href="#hunting">Hunting Reclutamiento & Selección</a></h4>
+									<h4><a id="click-hunting" href="#que-hacemos">Hunting Reclutamiento & Selección</a></h4>
 									
 								</div><!-- services-boxes-content -->
 								
@@ -593,7 +593,7 @@
 								</div>
 								<div class="services-boxes-content">
 								
-									<h4><a href="#evaluaciones">Evaluaciones Psicolaborales</a></h4>
+									<h4><a id="click-evalue" href="#que-hacemos">Evaluaciones Psicolaborales</a></h4>
 									
 								</div><!-- services-boxes-content -->
 								
@@ -612,7 +612,7 @@
 								</div>
 								<div class="services-boxes-content">
 								
-									<h4><a href="#consultorias">Consultorías en Marketing y Ventas</a></h4>
+									<h4><a id="click-consul" href="#que-hacemos">Consultorías en Marketing y Ventas</a></h4>
 									
 								</div><!-- services-boxes-content -->
 								
@@ -644,9 +644,9 @@
 							
 							<div class="features-slider">
 								<ul>
-									<li id="slide-01-quehacemos">
+									<li>
 										<div class="row">
-											<div class="col-sm-5" id="hunting">
+											<div class="col-sm-5">
 												
 												<img src="images/slider-twu1.jpg" alt="">
 												
@@ -664,11 +664,11 @@
 											</div><!-- col -->
 										</div><!-- row -->
 									</li>
-									<li id="slide-02-quehacemos">
+									<li>
 										<div class="row">
 											<div class="col-sm-5">
 												
-												<img src="images/slider-twu2.jpg" alt="" id="evaluaciones">
+												<img src="images/slider-twu2.jpg" alt="">
 												
 											</div><!-- col -->
 											<div class="col-sm-7">
@@ -684,11 +684,11 @@
 											</div><!-- col -->
 										</div><!-- row -->
 									</li>
-									<li id="slide-03-quehacemos">
+									<li>
 										<div class="row">
 											<div class="col-sm-5">
 												
-												<img src="images/slider-twu3.jpg" alt="" id="consultorias">
+												<img src="images/slider-twu3.jpg" alt="">
 												
 											</div><!-- col -->
 											<div class="col-sm-7">
