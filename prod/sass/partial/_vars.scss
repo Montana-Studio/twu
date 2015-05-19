@@ -22,7 +22,7 @@ $min-notebook:screen and(min-width:$bp-largess) and (max-width:$bp-xl);
 $min-desktop:screen and(min-width:$bp-largess);
 
 
-@mixin queries($min...){
+@mixin queries($min){
 	
 	@if $min == 'phoness-min'{
 		@media screen and(min-width:$bp-smalless) and (max-width:$bp-meddies){

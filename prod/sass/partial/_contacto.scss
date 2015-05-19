@@ -3,6 +3,10 @@
 	@include queries(phoness-min){
 		margin:{top:50px;bottom:0;}
 	} 
+	@include queries(tabless-min){
+		margin:{bottom:0;}
+		padding:{bottom:0;}
+	} 
 	@include queries(notebook-min){
 		margin: {bottom:0;}
 	}
