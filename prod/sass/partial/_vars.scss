@@ -14,16 +14,8 @@ $bp-largess : 1024px;
 $bp-xl : 1140px;
 $bp-xxl : 1440px; 
 
-$min-phonemin:screen and(min-width:$bp-smalless) and (max-width:$bp-meddies);
-$min-phone:screen and(min-width:$bp-meddies) and (max-width:$bp-md);
-$min-tablemin:screen and(min-width:$bp-md ) and (max-width:$bp-large);
-$min-table:screen and(min-width:$bp-large) and (max-width:$bp-largess);
-$min-notebook:screen and(min-width:$bp-largess) and (max-width:$bp-xl);
-$min-desktop:screen and(min-width:$bp-largess);
+@mixin queries($min){
 
-
-@mixin queries($min...){
-	
 	@if $min == 'phoness-min'{
 		@media screen and(min-width:$bp-smalless) and (max-width:$bp-meddies){
 			@content;
