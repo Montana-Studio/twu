@@ -432,7 +432,7 @@
 		
 		$(".features-slider ul").bxSlider({
 			mode: 'fade',
-			speed: 800,
+			speed: 40,
 			infiniteLoop: true,
 			hideControlOnEnd: false,
 			pager: true,
@@ -441,7 +441,22 @@
 			auto: true,
 			pause: 4000,
 			autoHover: true,
-			useCSS: false
+			useCSS: false,
+			onSlideAfter: function(){
+
+				var day;
+				switch (console.log('slider 01')) {
+				    case 0:
+				        day = $('#slide-01-quehacemos').css('display') == 'block';
+				        break;
+				    case 1:
+				        day = $('#slide-02-quehacemos').css('display') == 'block';
+				        break;
+				    case 2:
+				        day = $('#slide-03-quehacemos').css('display') == 'block';
+				        break;
+				}
+			}
 		});
 		
 		$(".testimonial-slider ul").bxSlider({

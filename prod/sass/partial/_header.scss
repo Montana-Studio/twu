@@ -15,22 +15,26 @@
 		}
 		.logo {
 			@extend .col-sm-3;
-			@extend .col-xs-3;
+			@extend .col-xs-9;
 			@extend .no-paddings;
 			margin:0;
 			display: block;
 			height: 137px;
 			@include queries(phoness-min){
-				height: 47px;  
+				height: 85px !important; 
+			}
+			@include queries(tabless-min){
+				height: 70px; 
+				width: 200px;
 			}
 			@include queries(tabless){
 				height: 70px; 
 			}
 			@include queries(notebook){
-					height: 80px;
+				height: 80px;
 			}
 			@include queries(notebook-min){
-				  height: 85px;
+			 	height: 100px !important;
 			}
 			a {
 				@extend .col-sm-12;
@@ -39,7 +43,7 @@
 				height:inherit;
 				overflow: hidden;
 				@include queries(phoness-min){
-					height: 47px;  
+					height: 85px;  
 				}
 				@include queries(tabless){
 					height: 70px; 
@@ -48,30 +52,22 @@
 					height: 80px;
 				}
 				svg {
+					@extend .col-md-12;
 					height: inherit;
 					overflow: visible;
 					position: absolute;
 					margin:0;
-					width: 75px;
-					top: -53px;
 					@include queries(phoness-min){
-						width:25px;  
-						top: -18px;
-						left: 17px;
+						top:0;
+						left:0;
 					}
-					@include queries(tabless){
-						width: 35px;
-						top: -26px;
-						left: 32px;
-						height: 70px;
-					}
-					@include queries(notebook){
-						width: 35px;
-						top: -25px;
+					@include queries(tabless-min){
+						width: 100%;
+						top: 0;
 					}
 					@include queries(notebook-min){
-						width: 44px;
-						top: -30px;
+						width:100%;
+						top: 5px;
 					}
 				}
 			}
@@ -85,7 +81,7 @@
 					margin:{top:10px;}
 				}
 				@include queries(notebook-min){
-					margin:{top:20px;}
+					margin:{top:20px !important;}
 				}
 				li {
 					a {
@@ -127,7 +123,8 @@
 				@include queries(phoness-min){
 					width: 22px;
 					color:#fff;
-					top: -47px;
+					top: -30px;
+					right: 50px;
 				}
 				@include queries(tabless){
 					top: -40px;
@@ -155,23 +152,19 @@
 		color:#000;
 		box-shadow: 0 0px 10px #333333;
 		.logo {
-			height: 67px !important;
+			height: 74px !important;
 			a {
 				height:inherit;
 				svg {
-					width: 10%;
-					top: -23px;
-					@include queries(tabless){
-						width: 35px;
-						top: -26px;
-						left: 32px;
-						height: 70px;
+					@extend .col-md-12; 
+					top: 0;
+					@include queries(tabless-min){
+						width: 100%;
+						top: 5px;	
 					}	
-					@include queries(notebook){
-						width: 34px;
-					}
 					@include queries(notebook-min){
-						width: 34px;
+						width: 100%;
+						top:0;	
 					}
 				}
 			}

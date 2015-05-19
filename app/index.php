@@ -223,6 +223,59 @@
 			l9.019,17.825h-1.022l-8.678-17.144l-4.51,7.358v9.913h-0.446h-0.447v-30.842h0.447h0.446v19.313L420.762,388.012z"/>
 	</g>
 </svg>
+<svg viewBox="0 0 320 137" class="hide">
+	<g id="svg_logo_header">
+		<g>
+			<path fill="#FFFFFF" d="M59.191,21.707H45.489v-0.743v-0.826h28.89v0.826v0.825l0.082-0.082H60.924v58.358h-0.908h-0.825V21.707z"
+				/>
+			<path fill="#FFFFFF" d="M108.633,80.064h-1.816l-3.714-18.077H88.741l-3.88,18.077h-1.816l12.134-60.009h1.403L108.633,80.064z
+				 M102.607,60.254l-6.686-35.658l-6.934,35.658H102.607z M95.592,20.056h0.083h0.165h0.083h0.082h0.165H95.592z"/>
+			<path fill="#FFFFFF" d="M123.16,80.064v-0.826V20.056h0.867h0.867v58.44h22.121v0.743v0.826H123.16z"/>
+			<path fill="#FFFFFF" d="M187.79,78.496v0.743v0.826h-23.277v-0.826V20.964v-0.908h22.946v0.908v0.66h-21.213v31.201h16.591v0.825
+				v0.743h-16.591v24.103H187.79z"/>
+			<path fill="#FFFFFF" d="M204.712,80.064h-0.867h-0.867V20.881v-0.826h1.403l22.861,52.58c0.33,0.772,0.565,1.376,0.704,1.816
+				c0.138,0.441,0.262,0.798,0.373,1.073V20.056h0.826h0.908v60.009h-1.491l-22.607-52.167c-0.111-0.275-0.346-0.839-0.704-1.692
+				c-0.359-0.853-0.594-1.527-0.703-2.022L204.712,80.064z M204.134,20.056h-0.083h-0.082h-0.083h-0.082h-0.083h-0.083h-0.082
+				H204.134z M229.474,80.064h-0.165h-0.165h-0.166h-0.082H229.474z"/>
+			<path fill="#FFFFFF" d="M254.566,21.707h-13.702v-0.743v-0.826h28.89v0.826v0.825l0.083-0.082H256.3v58.358h-0.908h-0.826V21.707z
+				"/>
+		</g>
+		<g>
+			<path fill="#FFFFFF" d="M110.833,103.896l-4.192,12.687h-0.651l-3.253-26.205h0.759l3.036,24.072l4.012-12.18h0.578l4.012,12.18
+				l2.964-24.072h0.795l-3.217,26.205h-0.65L110.833,103.896z M106.207,116.583h0.036h0.036h0.036H106.207z M106.388,116.583h0.036
+				h0.036h0.036H106.388z M110.978,102.27h-0.036h-0.036h-0.037h-0.036h-0.036h-0.036h-0.036h-0.036H110.978z M115.279,116.583
+				h-0.036h-0.036h-0.036H115.279z M115.46,116.583h-0.036h-0.036h-0.037H115.46z"/>
+			<path fill="#FFFFFF" d="M126.014,116.619V90.342h0.38h0.38v26.277h-0.38H126.014z"/>
+			<path fill="#FFFFFF" d="M138.448,91.065h-6v-0.326v-0.362h12.651v0.362v0.362l0.036-0.036h-5.928v25.554h-0.398h-0.362V91.065z"/>
+			<path fill="#FFFFFF" d="M161.905,90.342v26.277h-0.398h-0.362v-11.241h-9.903v11.241h-0.362h-0.398V90.342h0.398h0.362v14.35
+				h9.903v-14.35h0.362H161.905z"/>
+			<path fill="#FFFFFF" d="M198.122,110.763c0,0.049,0,0.229,0,0.542c0,0.313-0.048,0.693-0.144,1.138
+				c-0.096,0.447-0.246,0.922-0.451,1.428c-0.204,0.506-0.511,0.976-0.919,1.41c-0.912,0.988-2.197,1.482-3.854,1.482
+				c-1.609,0-2.87-0.494-3.782-1.482c-0.408-0.434-0.715-0.915-0.919-1.446c-0.204-0.529-0.342-1.03-0.414-1.5
+				c-0.072-0.47-0.108-0.873-0.108-1.211c0-0.337,0-0.542,0-0.614V90.198h0.38h0.38v20.349v0.036c0,0.266,0,0.524,0,0.777
+				c0,0.253,0.024,0.501,0.072,0.741c0.048,0.434,0.163,0.885,0.345,1.355c0.181,0.47,0.453,0.91,0.817,1.32
+				c0.75,0.819,1.826,1.229,3.231,1.229c1.427,0,2.54-0.421,3.339-1.265c0.339-0.385,0.598-0.801,0.78-1.247
+				c0.181-0.446,0.308-0.873,0.381-1.284c0.048-0.24,0.078-0.475,0.09-0.705c0.012-0.229,0.018-0.464,0.018-0.705v-0.036V90.198h0.38
+				h0.38V110.763z"/>
+			<path fill="#FFFFFF" d="M206.435,115.679c-0.603-0.529-1.054-1.241-1.356-2.132c-0.301-0.891-0.452-1.843-0.452-2.855h0.759
+				c0,1.157,0.162,2.096,0.488,2.819c0.326,0.723,0.735,1.283,1.229,1.681c0.494,0.398,1.03,0.663,1.609,0.795
+				c0.578,0.132,1.12,0.199,1.627,0.199c0.626,0,1.247-0.091,1.861-0.271c0.614-0.18,1.169-0.47,1.663-0.867
+				c0.494-0.398,0.892-0.921,1.193-1.572c0.301-0.651,0.452-1.446,0.452-2.386c0-1.084-0.157-2.03-0.47-2.837
+				c-0.314-0.807-0.729-1.523-1.247-2.151c-0.519-0.626-1.103-1.186-1.753-1.681c-0.65-0.493-1.313-0.982-1.988-1.464
+				c-0.651-0.457-1.272-0.909-1.862-1.356c-0.59-0.446-1.126-0.945-1.608-1.5c-1.061-1.277-1.59-2.698-1.59-4.265
+				c0-0.072,0-0.258,0-0.56c0-0.301,0.04-0.656,0.121-1.066c0.081-0.409,0.213-0.855,0.398-1.337
+				c0.184-0.482,0.482-0.928,0.892-1.338c0.939-1.012,2.253-1.518,3.94-1.518c1.71,0,3,0.506,3.868,1.518
+				c0.362,0.434,0.62,0.91,0.777,1.428c0.156,0.519,0.259,1.012,0.307,1.482c0.048,0.47,0.066,0.868,0.054,1.193
+				c-0.012,0.326-0.018,0.501-0.018,0.524h-0.759c0.024-0.578,0.012-1.085-0.037-1.518c-0.048-0.434-0.139-0.885-0.271-1.355
+				c-0.133-0.47-0.356-0.886-0.669-1.247c-0.362-0.409-0.808-0.723-1.338-0.94c-0.53-0.217-1.169-0.325-1.915-0.325
+				c-1.47,0-2.591,0.422-3.362,1.265c-0.337,0.361-0.59,0.759-0.759,1.192c-0.169,0.434-0.29,0.838-0.362,1.211
+				c-0.072,0.374-0.109,0.826-0.109,1.356c0,0.795,0.133,1.5,0.399,2.114c0.266,0.614,0.617,1.181,1.053,1.699
+				c0.435,0.518,0.937,0.994,1.505,1.428c0.568,0.434,1.155,0.867,1.759,1.301c0.701,0.482,1.389,0.988,2.067,1.518
+				c0.676,0.531,1.293,1.133,1.85,1.807c1.257,1.543,1.886,3.35,1.886,5.422c0,1.951-0.65,3.47-1.952,4.554
+				c-1.061,0.867-2.385,1.302-3.976,1.302c-0.555,0-1.187-0.079-1.897-0.235C207.73,116.553,207.061,116.21,206.435,115.679z"/>
+		</g>
+	</g>
+</svg>
 
 	<div id="page-wrapper">
         
@@ -233,19 +286,12 @@
                 <div class="row">
                     <div class="logo">
 						<a href="index.html">
-							<svg viewBox="0 0 300 95">
-								<use xlink:href="#svg_logo"/> 
+							<svg viewBox="0 0 320 137">
+								<use xlink:href="#svg_logo_header"/> 
 							</svg>
 						</a>
 					</div>
                     <div class="nav-top">
-                        
-                        <!-- SEARCH -->
-						<form id="search-form" name="search-form" method="get" action="#">
-							<fieldset>
-								<input type="text" name="search" placeholder="">
-							</fieldset>
-						</form>
 						
 						<!-- MENU --> 
                         <nav>
@@ -285,8 +331,12 @@
                             
                             <img src="images/index/revolution-slider/bg-slide-1.jpg" alt="">
                             
-                            <div class="tp-caption text-center sft" data-x="495" data-y="280" data-speed="700" data-start="1500" data-easing="easeOutBack">
-                            	<img src="images/index/revolution-slider/logo.png" alt="">
+                            <div class="tp-caption text-center sft" data-x="495" data-y="70" data-speed="700" data-start="1500" data-easing="easeOutBack">
+                            	 <div class="logo">
+									<svg viewBox="0 0 508 508">
+										<use xlink:href="#svg_logo"/> 
+									</svg>
+								</div>
                             </div>
 							
 							<div class="tp-caption title-banner sft" data-x="150" data-y="500" data-speed="700" data-start="2000" data-easing="easeOutBack">
@@ -517,14 +567,14 @@
 							<div class="services-boxes style-1 wow fadeInLeft">
 								<div class="icon-flaticon">
 									<!--<div class="circle"></div>-->
-										<a>
+										<a >
 											<i class="flaticon-notepad30"></i>
 										</a>
 								
 								</div>
 								<div class="services-boxes-content">
 								
-									<h4><a>Hunting Reclutamiento & Selección</a></h4>
+									<h4><a href="#hunting">Hunting Reclutamiento & Selección</a></h4>
 									
 								</div><!-- services-boxes-content -->
 								
@@ -543,7 +593,7 @@
 								</div>
 								<div class="services-boxes-content">
 								
-									<h4><a>Evaluaciones Psicolaborales</a></h4>
+									<h4><a href="#evaluaciones">Evaluaciones Psicolaborales</a></h4>
 									
 								</div><!-- services-boxes-content -->
 								
@@ -562,7 +612,7 @@
 								</div>
 								<div class="services-boxes-content">
 								
-									<h4><a>Consultorías en Marketing y Ventas</a></h4>
+									<h4><a href="#consultorias">Consultorías en Marketing y Ventas</a></h4>
 									
 								</div><!-- services-boxes-content -->
 								
@@ -594,9 +644,9 @@
 							
 							<div class="features-slider">
 								<ul>
-									<li>
+									<li id="slide-01-quehacemos">
 										<div class="row">
-											<div class="col-sm-5">
+											<div class="col-sm-5" id="hunting">
 												
 												<img src="images/slider-twu1.jpg" alt="">
 												
@@ -605,7 +655,7 @@
 												
 												<br>
 												
-												<h2 id="hunting">Hunting Reclutamiento & Selección</h2>
+												<h2 >Hunting Reclutamiento & Selección</h2>
 												
 												<br>
 												
@@ -614,18 +664,18 @@
 											</div><!-- col -->
 										</div><!-- row -->
 									</li>
-									<li>
+									<li id="slide-02-quehacemos">
 										<div class="row">
 											<div class="col-sm-5">
 												
-												<img src="images/slider-twu2.jpg" alt="">
+												<img src="images/slider-twu2.jpg" alt="" id="evaluaciones">
 												
 											</div><!-- col -->
 											<div class="col-sm-7">
 												
 												<br>
 												
-												<h2 id="evaluaciones">Evaluaciones Psicolaborales</h2>
+												<h2 >Evaluaciones Psicolaborales</h2>
 												
 												<br>
 												
@@ -634,18 +684,18 @@
 											</div><!-- col -->
 										</div><!-- row -->
 									</li>
-									<li>
+									<li id="slide-03-quehacemos">
 										<div class="row">
 											<div class="col-sm-5">
 												
-												<img src="images/slider-twu3.jpg" alt="">
+												<img src="images/slider-twu3.jpg" alt="" id="consultorias">
 												
 											</div><!-- col -->
 											<div class="col-sm-7">
 												
 												<br>
 												
-												<h2 id="consultorias">Consultorías en Marketing y ventas</h2>
+												<h2 >Consultorías en Marketing y ventas</h2>
 												
 												<br>
 												
@@ -765,7 +815,7 @@
 											</div><!-- col -->
 											<div class="col-sm-4">
 												
-												<label for="subject">Titulo</label>
+												<label for="subject">Asunto</label>
 												<input class="col-xs-12" id="subject" type="text" name="subject" placeholder="">
 												
 											</div><!-- col -->
@@ -848,6 +898,7 @@
                                     <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
                                     <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
                                     <a class="instagram" href="#"><i class="fa fa-instagram"></i></a>
+                                    <a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
                                 </div><!-- social-media -->    
                             
                             </div><!-- widget-social -->

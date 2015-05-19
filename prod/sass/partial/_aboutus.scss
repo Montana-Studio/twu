@@ -4,6 +4,9 @@
 	@include queries(phoness-min){
 		padding: 0 10px !important;
 	}
+	@include queries(tabless-min){
+		padding: 0 10px !important;
+	}
 	.title-section {
 		padding:{top:90px;}
 		@include queries(phoness-min){
@@ -12,6 +15,9 @@
 		h3 {
 			margin:{top:100px;}
 			@include queries(phoness-min){
+			    margin:{top:20px;}
+			}
+			@include queries(tabless-min){
 			    margin:{top:20px;}
 			}
 			@include queries(tabless){
